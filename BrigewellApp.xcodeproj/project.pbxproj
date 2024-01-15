@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41974CA12B4CAD7600F38C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CA02B4CAD7600F38C09 /* AppDelegate.swift */; };
+		41974CA52B4CAD7600F38C09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CA42B4CAD7600F38C09 /* ViewController.swift */; };
+		41974CA82B4CAD7600F38C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41974CA62B4CAD7600F38C09 /* Main.storyboard */; };
+		41974CAA2B4CAD7700F38C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41974CA92B4CAD7700F38C09 /* Assets.xcassets */; };
+		41974CAD2B4CAD7700F38C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41974CAB2B4CAD7700F38C09 /* LaunchScreen.storyboard */; };
+		41974CB82B4CAD7700F38C09 /* BrigewellAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CB72B4CAD7700F38C09 /* BrigewellAppTests.swift */; };
+		41974CC22B4CAD7700F38C09 /* BrigewellAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CC12B4CAD7700F38C09 /* BrigewellAppUITests.swift */; };
+		41974CC42B4CAD7700F38C09 /* BrigewellAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CC32B4CAD7700F38C09 /* BrigewellAppUITestsLaunchTests.swift */; };
+		41974CD22B4CAFC100F38C09 /* AppStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CD12B4CAFC100F38C09 /* AppStart.swift */; };
+		41974CD42B4CAFDB00F38C09 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CD32B4CAFDB00F38C09 /* AppCoordinator.swift */; };
+		41974CD62B4CB00500F38C09 /* RootDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CD52B4CB00500F38C09 /* RootDependency.swift */; };
+		41974CD82B4CB01700F38C09 /* NetworkAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CD72B4CB01700F38C09 /* NetworkAssembly.swift */; };
+		41974CE22B4CB6A800F38C09 /* ListPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CE02B4CB6A800F38C09 /* ListPostViewController.swift */; };
+		41974CE32B4CB6A800F38C09 /* ListPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41974CE12B4CB6A800F38C09 /* ListPostViewController.xib */; };
+		41974CE52B4CB6BF00F38C09 /* ListPostCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CE42B4CB6BF00F38C09 /* ListPostCoordinator.swift */; };
+		41974CE82B4CB6DF00F38C09 /* ListPostDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CE72B4CB6DF00F38C09 /* ListPostDependency.swift */; };
+		41974CEA2B4CB70600F38C09 /* ListPostAssemply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CE92B4CB70600F38C09 /* ListPostAssemply.swift */; };
+		41974CED2B4CB81800F38C09 /* ListPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CEC2B4CB81800F38C09 /* ListPostViewModel.swift */; };
+		41974CEF2B4CB86700F38C09 /* ListPostViewModelImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CEE2B4CB86700F38C09 /* ListPostViewModelImplementation.swift */; };
+		41974CF32B4CC35A00F38C09 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CF12B4CC35A00F38C09 /* PostTableViewCell.swift */; };
+		41974CF42B4CC35A00F38C09 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41974CF22B4CC35A00F38C09 /* PostTableViewCell.xib */; };
+		41974CF72B4CC4F900F38C09 /* UITableViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41974CF62B4CC4F900F38C09 /* UITableViewCell+Ext.swift */; };
+		6B51BFED90FCE823C7C80363 /* Pods_BrigewellApp_BrigewellAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCA9B16603F32A93EF79A8E /* Pods_BrigewellApp_BrigewellAppUITests.framework */; };
+		8310F8CCE7793DB19DFEC3EC /* Pods_BrigewellAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F9CAF7165AEF9A8A0FAFA4 /* Pods_BrigewellAppTests.framework */; };
+		C62D142385CA0EDB246F3FD7 /* Pods_BrigewellApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29243BB53F0BCBDE7C60F8F3 /* Pods_BrigewellApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41974CB42B4CAD7700F38C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41974C952B4CAD7600F38C09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41974C9C2B4CAD7600F38C09;
+			remoteInfo = BrigewellApp;
+		};
+		41974CBE2B4CAD7700F38C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41974C952B4CAD7600F38C09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41974C9C2B4CAD7600F38C09;
+			remoteInfo = BrigewellApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29243BB53F0BCBDE7C60F8F3 /* Pods_BrigewellApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrigewellApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AEFCED9E764F26BF9CE0A3 /* Pods-BrigewellAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrigewellAppTests.release.xcconfig"; path = "Target Support Files/Pods-BrigewellAppTests/Pods-BrigewellAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		33A70776FDEF23A3A2EF7726 /* Pods-BrigewellApp-BrigewellAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrigewellApp-BrigewellAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BrigewellApp-BrigewellAppUITests/Pods-BrigewellApp-BrigewellAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34F9CAF7165AEF9A8A0FAFA4 /* Pods_BrigewellAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrigewellAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EFB7FCEF7D8F47C9C568B9 /* Pods-BrigewellApp-BrigewellAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrigewellApp-BrigewellAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BrigewellApp-BrigewellAppUITests/Pods-BrigewellApp-BrigewellAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41974C9D2B4CAD7600F38C09 /* BrigewellApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrigewellApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41974CA02B4CAD7600F38C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41974CA42B4CAD7600F38C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41974CA72B4CAD7600F38C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41974CA92B4CAD7700F38C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41974CAC2B4CAD7700F38C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41974CAE2B4CAD7700F38C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41974CB32B4CAD7700F38C09 /* BrigewellAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrigewellAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41974CB72B4CAD7700F38C09 /* BrigewellAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrigewellAppTests.swift; sourceTree = "<group>"; };
+		41974CBD2B4CAD7700F38C09 /* BrigewellAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrigewellAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41974CC12B4CAD7700F38C09 /* BrigewellAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrigewellAppUITests.swift; sourceTree = "<group>"; };
+		41974CC32B4CAD7700F38C09 /* BrigewellAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrigewellAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41974CD12B4CAFC100F38C09 /* AppStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStart.swift; sourceTree = "<group>"; };
+		41974CD32B4CAFDB00F38C09 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		41974CD52B4CB00500F38C09 /* RootDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootDependency.swift; sourceTree = "<group>"; };
+		41974CD72B4CB01700F38C09 /* NetworkAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAssembly.swift; sourceTree = "<group>"; };
+		41974CE02B4CB6A800F38C09 /* ListPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPostViewController.swift; sourceTree = "<group>"; };
+		41974CE12B4CB6A800F38C09 /* ListPostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListPostViewController.xib; sourceTree = "<group>"; };
+		41974CE42B4CB6BF00F38C09 /* ListPostCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPostCoordinator.swift; sourceTree = "<group>"; };
+		41974CE72B4CB6DF00F38C09 /* ListPostDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPostDependency.swift; sourceTree = "<group>"; };
+		41974CE92B4CB70600F38C09 /* ListPostAssemply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPostAssemply.swift; sourceTree = "<group>"; };
+		41974CEC2B4CB81800F38C09 /* ListPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPostViewModel.swift; sourceTree = "<group>"; };
+		41974CEE2B4CB86700F38C09 /* ListPostViewModelImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPostViewModelImplementation.swift; sourceTree = "<group>"; };
+		41974CF12B4CC35A00F38C09 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		41974CF22B4CC35A00F38C09 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		41974CF62B4CC4F900F38C09 /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
+		63C16BAB232439B117F23D6F /* Pods-BrigewellApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrigewellApp.release.xcconfig"; path = "Target Support Files/Pods-BrigewellApp/Pods-BrigewellApp.release.xcconfig"; sourceTree = "<group>"; };
+		BCB55E106A1B96250D9547FA /* Pods-BrigewellApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrigewellApp.debug.xcconfig"; path = "Target Support Files/Pods-BrigewellApp/Pods-BrigewellApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D9978F545999E2A0DBCFE424 /* Pods-BrigewellAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrigewellAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BrigewellAppTests/Pods-BrigewellAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCCA9B16603F32A93EF79A8E /* Pods_BrigewellApp_BrigewellAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrigewellApp_BrigewellAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41974C9A2B4CAD7600F38C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62D142385CA0EDB246F3FD7 /* Pods_BrigewellApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41974CB02B4CAD7700F38C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8310F8CCE7793DB19DFEC3EC /* Pods_BrigewellAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41974CBA2B4CAD7700F38C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B51BFED90FCE823C7C80363 /* Pods_BrigewellApp_BrigewellAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41974C942B4CAD7600F38C09 = {
+			isa = PBXGroup;
+			children = (
+				41974C9F2B4CAD7600F38C09 /* BrigewellApp */,
+				41974CB62B4CAD7700F38C09 /* BrigewellAppTests */,
+				41974CC02B4CAD7700F38C09 /* BrigewellAppUITests */,
+				41974C9E2B4CAD7600F38C09 /* Products */,
+				9E775DB21E87885B2FC1143D /* Pods */,
+				47DA84B5143B0FDE82E9AE0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41974C9E2B4CAD7600F38C09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41974C9D2B4CAD7600F38C09 /* BrigewellApp.app */,
+				41974CB32B4CAD7700F38C09 /* BrigewellAppTests.xctest */,
+				41974CBD2B4CAD7700F38C09 /* BrigewellAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41974C9F2B4CAD7600F38C09 /* BrigewellApp */ = {
+			isa = PBXGroup;
+			children = (
+				41974CF52B4CC4DA00F38C09 /* Extension */,
+				41974CD02B4CAF9F00F38C09 /* Screens */,
+				41974CA02B4CAD7600F38C09 /* AppDelegate.swift */,
+				41974CA42B4CAD7600F38C09 /* ViewController.swift */,
+				41974CA62B4CAD7600F38C09 /* Main.storyboard */,
+				41974CA92B4CAD7700F38C09 /* Assets.xcassets */,
+				41974CAB2B4CAD7700F38C09 /* LaunchScreen.storyboard */,
+				41974CAE2B4CAD7700F38C09 /* Info.plist */,
+			);
+			path = BrigewellApp;
+			sourceTree = "<group>";
+		};
+		41974CB62B4CAD7700F38C09 /* BrigewellAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				41974CB72B4CAD7700F38C09 /* BrigewellAppTests.swift */,
+			);
+			path = BrigewellAppTests;
+			sourceTree = "<group>";
+		};
+		41974CC02B4CAD7700F38C09 /* BrigewellAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41974CC12B4CAD7700F38C09 /* BrigewellAppUITests.swift */,
+				41974CC32B4CAD7700F38C09 /* BrigewellAppUITestsLaunchTests.swift */,
+			);
+			path = BrigewellAppUITests;
+			sourceTree = "<group>";
+		};
+		41974CD02B4CAF9F00F38C09 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				41974CDF2B4CB69300F38C09 /* ListPost */,
+				41974CDD2B4CB65700F38C09 /* Appstart */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		41974CDD2B4CB65700F38C09 /* Appstart */ = {
+			isa = PBXGroup;
+			children = (
+				41974CD12B4CAFC100F38C09 /* AppStart.swift */,
+				41974CD32B4CAFDB00F38C09 /* AppCoordinator.swift */,
+				41974CDE2B4CB66000F38C09 /* Dependency */,
+			);
+			path = Appstart;
+			sourceTree = "<group>";
+		};
+		41974CDE2B4CB66000F38C09 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				41974CD52B4CB00500F38C09 /* RootDependency.swift */,
+				41974CD72B4CB01700F38C09 /* NetworkAssembly.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		41974CDF2B4CB69300F38C09 /* ListPost */ = {
+			isa = PBXGroup;
+			children = (
+				41974CF02B4CB86A00F38C09 /* ViewModel */,
+				41974CEB2B4CB80600F38C09 /* View */,
+				41974CE62B4CB6D100F38C09 /* Dependency */,
+				41974CE42B4CB6BF00F38C09 /* ListPostCoordinator.swift */,
+			);
+			path = ListPost;
+			sourceTree = "<group>";
+		};
+		41974CE62B4CB6D100F38C09 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				41974CE72B4CB6DF00F38C09 /* ListPostDependency.swift */,
+				41974CE92B4CB70600F38C09 /* ListPostAssemply.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		41974CEB2B4CB80600F38C09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41974CE02B4CB6A800F38C09 /* ListPostViewController.swift */,
+				41974CE12B4CB6A800F38C09 /* ListPostViewController.xib */,
+				41974CF12B4CC35A00F38C09 /* PostTableViewCell.swift */,
+				41974CF22B4CC35A00F38C09 /* PostTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41974CF02B4CB86A00F38C09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41974CEC2B4CB81800F38C09 /* ListPostViewModel.swift */,
+				41974CEE2B4CB86700F38C09 /* ListPostViewModelImplementation.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41974CF52B4CC4DA00F38C09 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				41974CF62B4CC4F900F38C09 /* UITableViewCell+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		47DA84B5143B0FDE82E9AE0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29243BB53F0BCBDE7C60F8F3 /* Pods_BrigewellApp.framework */,
+				FCCA9B16603F32A93EF79A8E /* Pods_BrigewellApp_BrigewellAppUITests.framework */,
+				34F9CAF7165AEF9A8A0FAFA4 /* Pods_BrigewellAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E775DB21E87885B2FC1143D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCB55E106A1B96250D9547FA /* Pods-BrigewellApp.debug.xcconfig */,
+				63C16BAB232439B117F23D6F /* Pods-BrigewellApp.release.xcconfig */,
+				39EFB7FCEF7D8F47C9C568B9 /* Pods-BrigewellApp-BrigewellAppUITests.debug.xcconfig */,
+				33A70776FDEF23A3A2EF7726 /* Pods-BrigewellApp-BrigewellAppUITests.release.xcconfig */,
+				D9978F545999E2A0DBCFE424 /* Pods-BrigewellAppTests.debug.xcconfig */,
+				32AEFCED9E764F26BF9CE0A3 /* Pods-BrigewellAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41974C9C2B4CAD7600F38C09 /* BrigewellApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41974CC72B4CAD7700F38C09 /* Build configuration list for PBXNativeTarget "BrigewellApp" */;
+			buildPhases = (
+				489558A38235932131E35BB9 /* [CP] Check Pods Manifest.lock */,
+				41974C992B4CAD7600F38C09 /* Sources */,
+				41974C9A2B4CAD7600F38C09 /* Frameworks */,
+				41974C9B2B4CAD7600F38C09 /* Resources */,
+				C2FCD9471EF838C4C2B45C9F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrigewellApp;
+			productName = BrigewellApp;
+			productReference = 41974C9D2B4CAD7600F38C09 /* BrigewellApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41974CB22B4CAD7700F38C09 /* BrigewellAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41974CCA2B4CAD7700F38C09 /* Build configuration list for PBXNativeTarget "BrigewellAppTests" */;
+			buildPhases = (
+				33134301BB1C315EF88EF75F /* [CP] Check Pods Manifest.lock */,
+				41974CAF2B4CAD7700F38C09 /* Sources */,
+				41974CB02B4CAD7700F38C09 /* Frameworks */,
+				41974CB12B4CAD7700F38C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41974CB52B4CAD7700F38C09 /* PBXTargetDependency */,
+			);
+			name = BrigewellAppTests;
+			productName = BrigewellAppTests;
+			productReference = 41974CB32B4CAD7700F38C09 /* BrigewellAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41974CBC2B4CAD7700F38C09 /* BrigewellAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41974CCD2B4CAD7700F38C09 /* Build configuration list for PBXNativeTarget "BrigewellAppUITests" */;
+			buildPhases = (
+				9120196B241BC856DB50428F /* [CP] Check Pods Manifest.lock */,
+				41974CB92B4CAD7700F38C09 /* Sources */,
+				41974CBA2B4CAD7700F38C09 /* Frameworks */,
+				41974CBB2B4CAD7700F38C09 /* Resources */,
+				9CF537198E92AD1DD737AE46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41974CBF2B4CAD7700F38C09 /* PBXTargetDependency */,
+			);
+			name = BrigewellAppUITests;
+			productName = BrigewellAppUITests;
+			productReference = 41974CBD2B4CAD7700F38C09 /* BrigewellAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41974C952B4CAD7600F38C09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					41974C9C2B4CAD7600F38C09 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					41974CB22B4CAD7700F38C09 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 41974C9C2B4CAD7600F38C09;
+					};
+					41974CBC2B4CAD7700F38C09 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 41974C9C2B4CAD7600F38C09;
+					};
+				};
+			};
+			buildConfigurationList = 41974C982B4CAD7600F38C09 /* Build configuration list for PBXProject "BrigewellApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41974C942B4CAD7600F38C09;
+			productRefGroup = 41974C9E2B4CAD7600F38C09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41974C9C2B4CAD7600F38C09 /* BrigewellApp */,
+				41974CB22B4CAD7700F38C09 /* BrigewellAppTests */,
+				41974CBC2B4CAD7700F38C09 /* BrigewellAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41974C9B2B4CAD7600F38C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41974CE32B4CB6A800F38C09 /* ListPostViewController.xib in Resources */,
+				41974CF42B4CC35A00F38C09 /* PostTableViewCell.xib in Resources */,
+				41974CAD2B4CAD7700F38C09 /* LaunchScreen.storyboard in Resources */,
+				41974CAA2B4CAD7700F38C09 /* Assets.xcassets in Resources */,
+				41974CA82B4CAD7600F38C09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41974CB12B4CAD7700F38C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41974CBB2B4CAD7700F38C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33134301BB1C315EF88EF75F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrigewellAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		489558A38235932131E35BB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrigewellApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9120196B241BC856DB50428F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrigewellApp-BrigewellAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF537198E92AD1DD737AE46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrigewellApp-BrigewellAppUITests/Pods-BrigewellApp-BrigewellAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrigewellApp-BrigewellAppUITests/Pods-BrigewellApp-BrigewellAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrigewellApp-BrigewellAppUITests/Pods-BrigewellApp-BrigewellAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2FCD9471EF838C4C2B45C9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrigewellApp/Pods-BrigewellApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrigewellApp/Pods-BrigewellApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrigewellApp/Pods-BrigewellApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41974C992B4CAD7600F38C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41974CE52B4CB6BF00F38C09 /* ListPostCoordinator.swift in Sources */,
+				41974CED2B4CB81800F38C09 /* ListPostViewModel.swift in Sources */,
+				41974CF32B4CC35A00F38C09 /* PostTableViewCell.swift in Sources */,
+				41974CD62B4CB00500F38C09 /* RootDependency.swift in Sources */,
+				41974CD42B4CAFDB00F38C09 /* AppCoordinator.swift in Sources */,
+				41974CEF2B4CB86700F38C09 /* ListPostViewModelImplementation.swift in Sources */,
+				41974CD82B4CB01700F38C09 /* NetworkAssembly.swift in Sources */,
+				41974CF72B4CC4F900F38C09 /* UITableViewCell+Ext.swift in Sources */,
+				41974CE82B4CB6DF00F38C09 /* ListPostDependency.swift in Sources */,
+				41974CA52B4CAD7600F38C09 /* ViewController.swift in Sources */,
+				41974CA12B4CAD7600F38C09 /* AppDelegate.swift in Sources */,
+				41974CEA2B4CB70600F38C09 /* ListPostAssemply.swift in Sources */,
+				41974CE22B4CB6A800F38C09 /* ListPostViewController.swift in Sources */,
+				41974CD22B4CAFC100F38C09 /* AppStart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41974CAF2B4CAD7700F38C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41974CB82B4CAD7700F38C09 /* BrigewellAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41974CB92B4CAD7700F38C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41974CC42B4CAD7700F38C09 /* BrigewellAppUITestsLaunchTests.swift in Sources */,
+				41974CC22B4CAD7700F38C09 /* BrigewellAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41974CB52B4CAD7700F38C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41974C9C2B4CAD7600F38C09 /* BrigewellApp */;
+			targetProxy = 41974CB42B4CAD7700F38C09 /* PBXContainerItemProxy */;
+		};
+		41974CBF2B4CAD7700F38C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41974C9C2B4CAD7600F38C09 /* BrigewellApp */;
+			targetProxy = 41974CBE2B4CAD7700F38C09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41974CA62B4CAD7600F38C09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41974CA72B4CAD7600F38C09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41974CAB2B4CAD7700F38C09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41974CAC2B4CAD7700F38C09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41974CC52B4CAD7700F38C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41974CC62B4CAD7700F38C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41974CC82B4CAD7700F38C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB55E106A1B96250D9547FA /* Pods-BrigewellApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrigewellApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nalou.BrigewellApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41974CC92B4CAD7700F38C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C16BAB232439B117F23D6F /* Pods-BrigewellApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BrigewellApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nalou.BrigewellApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41974CCB2B4CAD7700F38C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9978F545999E2A0DBCFE424 /* Pods-BrigewellAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nalou.BrigewellAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrigewellApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrigewellApp";
+			};
+			name = Debug;
+		};
+		41974CCC2B4CAD7700F38C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AEFCED9E764F26BF9CE0A3 /* Pods-BrigewellAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nalou.BrigewellAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrigewellApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrigewellApp";
+			};
+			name = Release;
+		};
+		41974CCE2B4CAD7700F38C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EFB7FCEF7D8F47C9C568B9 /* Pods-BrigewellApp-BrigewellAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nalou.BrigewellAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrigewellApp;
+			};
+			name = Debug;
+		};
+		41974CCF2B4CAD7700F38C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A70776FDEF23A3A2EF7726 /* Pods-BrigewellApp-BrigewellAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nalou.BrigewellAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrigewellApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41974C982B4CAD7600F38C09 /* Build configuration list for PBXProject "BrigewellApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41974CC52B4CAD7700F38C09 /* Debug */,
+				41974CC62B4CAD7700F38C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41974CC72B4CAD7700F38C09 /* Build configuration list for PBXNativeTarget "BrigewellApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41974CC82B4CAD7700F38C09 /* Debug */,
+				41974CC92B4CAD7700F38C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41974CCA2B4CAD7700F38C09 /* Build configuration list for PBXNativeTarget "BrigewellAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41974CCB2B4CAD7700F38C09 /* Debug */,
+				41974CCC2B4CAD7700F38C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41974CCD2B4CAD7700F38C09 /* Build configuration list for PBXNativeTarget "BrigewellAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41974CCE2B4CAD7700F38C09 /* Debug */,
+				41974CCF2B4CAD7700F38C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41974C952B4CAD7600F38C09 /* Project object */;
+}

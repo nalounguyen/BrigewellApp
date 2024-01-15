@@ -1,0 +1,32 @@
+{
+  "name": "BrigewellSdk",
+  "version": "1.0.0",
+  "summary": "A short description of BrigewellSdk",
+  "description": "A complete description of BrigewellSdk",
+  "homepage": "https://",
+  "license": "MIT",
+  "authors": "Nalou",
+  "source": {
+    "git": "git@bitbucket.org:tymerepos/tyme-networking-ios.git",
+    "tag": "1.0.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": false,
+  "requires_arc": true,
+  "source_files": "BrigewellSdk/**/*.{swift, plist, h, m}",
+  "platforms": {
+    "ios": "16.0"
+  },
+  "dependencies": {
+    "RxCocoa": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "Swinject": [
+      "2.8.3"
+    ]
+  },
+  "swift_version": "5.0"
+}
